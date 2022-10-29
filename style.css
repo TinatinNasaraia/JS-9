@@ -1,0 +1,31 @@
+.slider-wrapper {
+    position: relative;
+}
+img {
+    width: 100%;
+}
+.arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    color: #FFFF;
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.arrow-right {
+    right: 30px;
+}
+.arrow-left {
+    left: 30px;
+}
+.title {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    color: black;
+}
